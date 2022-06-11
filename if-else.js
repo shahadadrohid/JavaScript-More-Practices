@@ -19,6 +19,8 @@ else {
     console.log("Sorry i don't have budget")
 }
 
+// Multiple Condition && and ||
+
 var milkFresh = true;
 
 if (milkPrice <= 80 && milkFresh == true) {
@@ -27,3 +29,5 @@ if (milkPrice <= 80 && milkFresh == true) {
 else {
     console.log('Fresh na hole kinbo na')
 }
+
+// Nested Condition 
