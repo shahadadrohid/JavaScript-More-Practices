@@ -2,8 +2,8 @@
 
 var biryaniPacket = 0;
 while (biryaniPacket <= 10) {
-    // console.log(biryaniPacket)
-    // console.log('Alhamdulillah biryani packet sobaike dite parchi');
+    console.log(biryaniPacket)
+    console.log('Alhamdulillah biryani packet sobaike dite parchi');
     biryaniPacket++
 }
 
@@ -11,7 +11,7 @@ while (biryaniPacket <= 10) {
 
 var oddNumber = 1;
 while (oddNumber < 20) {
-    // console.log(oddNumber)
+    console.log(oddNumber)
     oddNumber = oddNumber + 2;
 
 }
@@ -25,3 +25,16 @@ while (evenNumber < 20) {
 }
 // For Loop
 
+for (var i = 0; i <= 10; i++) {
+    console.log(i)
+}
+
+// Even Number 
+for (var i = 0; i <= 10; i = i + 2) {
+    console.log(i)
+}
+
+// Odd Number 
+for (var i = 1; i <= 10; i = i + 2) {
+    console.log(i)
+}
