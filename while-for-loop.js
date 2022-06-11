@@ -38,3 +38,22 @@ for (var i = 0; i <= 10; i = i + 2) {
 for (var i = 1; i <= 10; i = i + 2) {
     console.log(i)
 }
+
+// Array Loop 
+
+var numbers = [15, 19, 20, 25, 26, 32, 18, 35, 40, 44];
+
+// Array by While loop 
+var i = 0;
+while (i < numbers.length) {
+    var element = numbers[i]
+    console.log(element)
+    i++
+}
+
+// Array by For loop 
+for (var i = 0; i < numbers.length; i++) {
+    var element = numbers[i]
+    console.log(element);
+}
+
