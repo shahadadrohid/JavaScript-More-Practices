@@ -7,6 +7,8 @@ var phone = {
     camera: 48,
 }
 
+phone.price = 25000;
+console.log(phone.price)
 var computer = {
     price: 87500,
     storage: '1tb',
@@ -22,6 +24,8 @@ var monitor = {
     cableConnection: 2,
     chargingCabletype: 'Threeple',
 }
+
+
 
 var book = {
     name: 'Physics 2nd paper',
