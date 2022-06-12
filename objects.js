@@ -9,6 +9,14 @@ var phone = {
 
 phone.price = 25000;
 console.log(phone.price)
+
+phone['price'] = 22000;
+console.log(phone.price)
+
+var newPrice = 'price';
+phone[newPrice] = 20000;
+console.log(phone.price)
+
 var computer = {
     price: 87500,
     storage: '1tb',
